@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 from langchain.tools import tool
 from langchain_core.messages import HumanMessage
 
-llm = ChatGroq(model="qwen/qwen3-32b", temperature=0)
+llm = ChatGroq(model="qwen/qwen3.8-27b", temperature=0)
 # llm = ChatGroq(model="openai/gpt-oss-20b", temperature=0)
 
 
